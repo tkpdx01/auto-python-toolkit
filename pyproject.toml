@@ -1,0 +1,14 @@
+[project]
+name = "auto-python-toolkit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.1.4",
+    "progressbar>=2.5",
+    "rich>=13.9.4",
+    "termcolor>=2.3.0",
+    "tqdm>=4.67.0",
+    "xlrd>=2.0.1",
+]
