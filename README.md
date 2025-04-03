@@ -1,4 +1,7 @@
 # auto-python-toolkit
+
+![Build Status](https://github.com/tkpdx01/auto-python-toolkit/actions/workflows/build-release.yml/badge.svg)
+
 Create an out-of-the-box Python environment that supports offline development for your project, enhancing efficiency and simplifying your workflow.
 
 auto-python-toolkit is a ready-to-use Python environment tailored for beginner developers. Whether working within an intranet or other offline settings, this toolkit simplifies the challenges of managing Python dependencies, environments, and versions. Key Features:
@@ -7,7 +10,22 @@ auto-python-toolkit is a ready-to-use Python environment tailored for beginner d
 - **Automation**: No need for in-depth knowledge of Python dependency or environment management—the toolkit handles the hassle for you.
 - **Ready-to-Use**: Quick setup and no complex configurations, enabling you to start coding instantly.
 
-## Usage
+## Quick Start
+
+### Download
+
+Download the latest release from [GitHub Releases](https://github.com/tkpdx01/auto-python-toolkit/releases).
+
+### Usage
+
+1. Unzip the toolkit to your project directory
+2. Run the tool:
+   ```
+   python main.py
+   ```
+3. Follow the prompts to select your target OS and Python version
+
+## Installation
 
 ### Prerequisites
 
@@ -102,6 +120,18 @@ The tool supports both English and Chinese interfaces:
 - Automatically detects your system language
 - Can be manually specified with the `--lang` parameter
 - Full i18n support for all menus and messages
+
+## Contributing
+
+Contributions are welcome! See [RELEASE.md](RELEASE.md) for information about the release process.
+
+To contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## Use Cases
 
