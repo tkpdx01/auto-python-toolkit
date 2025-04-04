@@ -4,3 +4,5 @@ tqdm
 termcolor
 progressbar
 xlrd
+openpyxl
+requests<3
